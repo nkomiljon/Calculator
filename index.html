@@ -1,0 +1,120 @@
+<!---
+  Проект созданы: 13.10.2020;
+  Дизайн пройкт получено Калькулятор Windows 10;
+  Проект созданы с помощью HTML5, CSS3, JavaScript;
+--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta nam="author" content="Najmitdinov">
+    <link rel="shortcut icon" href="css/icon-calc-blue.jpeg" sizes="12x12">
+    <title>Calculator</title>
+    <link href="css/app.css" rel="stylesheet" type="text/css" />
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <form name="form">
+    <div class="container">
+      <div class="calc-container">
+        <div class="grid-container">
+            <div class="grid-row">
+                <input class="window" name="window" value="0" readonly="0"> 
+            <!-- Первый ряд -->
+            <div class="grid-cell">
+              <input type="button"  class="button-symbols" onclick="button(11 ,'')" value="%">
+            </div>
+            <div class="grid-cell">
+              <input type="button" class="button-symbols" onclick="button(11,'sqrt')" value="√">
+            </div>
+            <div class="grid-cell">
+              <input type="button" class="button-symbols" value="">
+            </div>
+            <div class="grid-cell">
+              <input type="button" class="button-symbols" onclick="button(11 ,'1/x')" value="1/x">
+            </div>
+            <!-- Второй ряд -->
+            <div class="grid-cell">
+              <input type="button" class="button-symbols" onclick="button(11 ,'C')" value="CE">
+            </div>
+            <div class="grid-cell">
+             <input type="button" class="button-symbols" onclick="button(11 ,'C')" value="C">
+            </div>
+            <div class="grid-cell">
+             <input type="button" class="button-symbols" value="←">
+            </div>
+            <div class="grid-cell">
+             <input type="button" class="button-symbols mathematic-symbols"onclick="button(11 ,'/')" value="÷">
+            </div>
+            <!-- Третий ряд -->
+            <div class="grid-cell">
+                <input type="button" class="button-symbols numbers" onclick="button(7 ,'')" value="7">
+            </div>
+            <div class="grid-cell">
+               <input type="button" class="button-symbols numbers" onclick="button(8 ,'')" value="8">
+            </div>
+            <div class="grid-cell">
+               <input type="button" class="button-symbols numbers" onclick="button(9 ,'')" value="9">
+            </div>
+            <div class="grid-cell">
+               <input type="button" class="button-symbols mathematic-symbols" onclick="button(11 ,'*')"value="×">
+            </div>
+            <!-- Четвертиый ряд -->
+            <div class="grid-cell">
+                <input type="button" class="button-symbols numbers" onclick="button(4 ,'')" value="4">
+            </div>
+            <div class="grid-cell">
+               <input type="button" class="button-symbols numbers" onclick="button(5 ,'')" value="5">
+            </div>
+            <div class="grid-cell">
+                <input type="button" class="button-symbols numbers" onclick="button(6 ,'')" value="6">
+            </div>
+            <div class="grid-cell">
+                <input type="button" class="button-symbols mathematic-symbols"onclick="button(11 ,'-')" value="-">
+            </div>
+            <!-- Пятый ряд -->
+            <div class="grid-cell">
+                <input type="button" class="button-symbols numbers" onclick="button(1 ,'')" value="1">
+            </div>
+            <div class="grid-cell">
+                <input type="button" class="button-symbols numbers" onclick="button(2 ,'')" value="2">
+            </div>
+            <div class="grid-cell">
+                <input type="button" class="button-symbols numbers" onclick="button(3 ,'')" value="3">
+            </div>
+            <div class="grid-cell">
+                <input type="button" class="button-symbols mathematic-symbols" onclick="button(11 ,'+')" value="+">
+            </div>
+             <!-- Шестой ряд -->
+             <div class="grid-cell"> 
+                <input type="button" class="button-symbols" onclick="button(11 ,'+/-')" value="±">
+            </div>
+            <div class="grid-cell">
+                <input type="button" class="button-symbols numbers" onclick="button(0 ,'')" value="0">
+            </div>
+            <div class="grid-cell">
+                <input type="button" class="button-symbols numbers" onclick="button(11 ,'.')" value=",">
+            </div>
+            <div class="grid-cell">
+                <input type="button" class="button-symbols mathematic-symbols" onclick="button(11 ,'=')" value="=">
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+ </form>
+</body>
+</html>
+<!--
+     Вопросы:
+ 1. Как вы подошли к планированию решения задачи ?
+ 2. Какие трудности у вас возникли по ходу выполнения задачи ?
+ 3. Какими недостатками и какими достоинствами обладает ваше решение
+ 4. Что можно сделать чтобы улушить ваше решиние.
+    Ответы:
+ 1. Для решения проблемы я использовал дизайн программы-калькулятора в операционной системе Windows 10.
+ 2. Во время выполнение задания было немного трудностей в CSS и JS.
+ 3. У меня сейчас в программе несколько функций, но она еще не завершена на 100%, я постараюсь, чтобы все функции работали на 100%.
+ 4. Чтобы улучшить свое решение, мне нужно ещё хорошо выучить язык программирования JS.
+-->

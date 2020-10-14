@@ -1,0 +1,97 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #faf8ef;
+    font-family: "Clear Sans", "Consolas", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.container {
+    width: 360px;
+    margin: 0 auto;
+}
+.calc-container {
+    margin-top: 40px;
+    position: relative;
+    padding: 15px;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -ms-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-touch-action: none;
+    touch-action: none;
+    background: #dbdbdc;
+    border-radius: 2px;
+    height: 500px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.grid-container {
+    position: absolute;
+    z-index: 1;
+}
+.grid-row {
+    margin-bottom: 15px;  
+}
+
+.grid-row {
+    margin-bottom: 15px;
+}
+
+.window {
+    height: 80px;
+    width: 325px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Consolas';
+    text-align: right;
+    box-sizing: border-box;
+    padding-top: 50px;
+    border: none;
+
+}
+
+/* эта грид для опредить место button */
+
+.grid-cell {
+    width: 80px;
+    height: 55px;
+    margin-right: 2px;
+    margin-top: 10px;
+    float: left;
+    border-radius: 2px;
+    background: rgba(238, 228, 218, 0.35);
+}
+.grid-cell:last-child {
+    margin-right: 0;
+}
+
+.button-symbols, .mathematic-symbols {
+    width: 80px;
+    height: 60px;
+    background: #e9ecef;
+    border-style: none;
+    font-size: 18px;
+
+}
+.button-symbols:hover {
+    background: #d1d6d8;
+}
+.mathematic-symbols:hover {
+    background: #80aad4;
+}
+.numbers {
+    font-size: 22px;
+    font-family: 'Consolas', Arial, sans-serif;
+    font-weight: bold;
+    background: #fafcfc;
+}
+.numbers:hover {
+    background: #d1d6d8;
+}
+
+div {
+    display: block;
+}
